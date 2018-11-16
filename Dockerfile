@@ -1,4 +1,4 @@
-FROM php:7.1-fpm-jessie
+FROM php:5.6-fpm-jessie
 
 ADD root/ /
 # Fix the original permissions of /tmp, the PHP default upload tmp dir.
