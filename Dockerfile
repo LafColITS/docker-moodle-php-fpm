@@ -5,7 +5,6 @@ ADD root/ /
 RUN chmod 777 /tmp && chmod +t /tmp
 # Setup the required extensions.
 RUN /tmp/setup/php-extensions.sh
-RUN /tmp/setup/php-fpm.sh
 RUN /tmp/setup/oci8-extension.sh
 
 RUN mkdir /var/www/moodledata && chown www-data /var/www/moodledata && \
