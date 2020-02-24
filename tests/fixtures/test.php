@@ -7,6 +7,7 @@ $requiredextensions = [
     'intl',
     'ldap',
     'memcached',
+    'mongodb',
     'mysqli',
     'oci8',
     'pgsql',
@@ -17,6 +18,7 @@ $requiredextensions = [
     'xsl',
     'xmlrpc',
     'zip',
+    'uuid'
 ];
 
 $buffer = '';;

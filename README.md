@@ -2,13 +2,13 @@
 
 A Moodle PHP environment configured for Moodle development based on [Official PHP Images](https://hub.docker.com/_/php/).
 
-### Versions
+### Version
 
-| PHP Version  | Tag | Status |
-|--------------|-----|--------|
-| PHP 7.1 | 7.1 | [![Build Status](https://travis-ci.org/moodlehq/moodle-php-apache.svg?branch=php71)](https://travis-ci.org/moodlehq/moodle-php-apache)|
-| PHP 7.0 | 7.0 | [![Build Status](https://travis-ci.org/moodlehq/moodle-php-apache.svg?branch=php70)](https://travis-ci.org/moodlehq/moodle-php-apache)|
-|PHP 5.6 | 5.6 | [![Build Status](https://travis-ci.org/moodlehq/moodle-php-apache.svg?branch=php56)](https://travis-ci.org/moodlehq/moodle-php-apache)|
+| PHP Version  | Variant | Tags             | Status |
+|--------------|---------|------------------|--------|
+| PHP 7.2      | Stretch | 7.2-stretch      | [![Build Status](https://travis-ci.org/moodlehq/moodle-php-apache.svg?branch=7.2-stretch)](https://travis-ci.org/moodlehq/moodle-php-apache)|
+
+For a complete list of supported versions, look to the [master README](https://github.com/moodlehq/moodle-php-apache/tree/master).
 
 # Example usage
 The following command will expose the current working directory on port 8080:
